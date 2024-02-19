@@ -15,7 +15,7 @@ public class InsertionSort implements SortingAlgorithm {
      * @param sb StringBuilder. After the function executes, it should contain a string that shows the array of songs after each pass of insertion sort.
      * Show only the first letter of each song's title. Show each pass on a new line.
      * For instance, if low = 0, high = n - 1, and isAscending = true,
-     * then the array after each pass of insertion sort we will have the following string in the StringBuilder:
+     * then for the following array of songs UCFWHABOVPRL (where the title of the first song starts with "U", the title of the second one starts with "C" and so on), we should get the following intermediate results showing each pass of the insertion sort:
     CUFWHABOVPRL
     CFUWHABOVPRL
     CFUWHABOVPRL
